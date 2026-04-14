@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Command</title>
+
+  <rect x="8" y="14" width="48" height="36" rx="4" stroke="#ACC3B3" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="8" y1="26" x2="56" y2="26" stroke="#ACC3B3" stroke-width="1.2" opacity="0.35"/>
+  <circle cx="17" cy="20" r="3" fill="#ACC3B3" opacity="0.6"/>
+  <circle cx="26" cy="20" r="3" fill="#ACC3B3" opacity="0.4"/>
+  <polyline points="16,36 22,42 30,34 38,40 48,30" stroke="#ACC3B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

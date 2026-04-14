@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="120" height="120" fill="#000000"/>
+  <!-- Rectangle — upper right (source: x=500-1393, y=172-430 in 1500px space) -->
+  <rect x="40" y="14" width="71" height="21" fill="#FFFFFF"/>
+  <!-- Triangle — lower left (source: apex 503,534 / base 107,1350 to 901,1350) -->
+  <polygon points="9,108 72,108 40,43" fill="#FFFFFF"/>
+  <!-- Circle — lower right (source: cx=972, cy=758, r=204 in 1500px space) -->
+  <circle cx="78" cy="61" r="16" fill="#FFFFFF"/>
+</svg>

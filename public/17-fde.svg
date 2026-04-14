@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>FDE</title>
+
+  <circle cx="20" cy="24" r="8" stroke="#ACC3B3" stroke-width="2" fill="none"/>
+  <circle cx="44" cy="24" r="8" stroke="#ACC3B3" stroke-width="2" fill="none" opacity="0.55"/>
+  <path d="M4 52 Q4 38 20 38" stroke="#ACC3B3" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M20 38 Q32 38 44 38" stroke="#ACC3B3" stroke-width="1.4" stroke-linecap="round" fill="none" stroke-dasharray="4 3" opacity="0.5"/>
+  <path d="M44 38 Q60 38 60 52" stroke="#ACC3B3" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.55"/>
+
+</svg>

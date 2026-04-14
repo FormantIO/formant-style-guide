@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Alarm</title>
+
+  <path d="M32 8 C20 8 14 18 14 30 L14 38 L8 44 L56 44 L50 38 L50 30 C50 18 44 8 32 8 Z" stroke="#E8A87F" stroke-width="2" stroke-linejoin="round" fill="none"/>
+  <path d="M25 46 Q25 54 32 54 Q39 54 39 46" stroke="#E8A87F" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+</svg>

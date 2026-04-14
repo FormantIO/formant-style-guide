@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Guardrail</title>
+
+  <path d="M32 8 L52 19 L52 40 Q52 54 32 58 Q12 54 12 40 L12 19 Z" stroke="#ACC3B3" stroke-width="2" stroke-linejoin="round" fill="none"/>
+  <polyline points="22,32 29,40 42,26" stroke="#ACC3B3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>
