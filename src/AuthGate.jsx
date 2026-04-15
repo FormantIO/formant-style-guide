@@ -181,7 +181,7 @@ const styles = {
   },
   userBadge: {
     position: 'fixed',
-    top: 12,
+    top: 16,
     right: 20,
     zIndex: 200,
     display: 'flex',
