@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from 'react'
 const ALLOWED_DOMAIN = 'formant.io'
 const STORAGE_KEY = 'formant_auth_user'
 const CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID
+const SKIP_AUTH = import.meta.env.VITE_SKIP_AUTH === 'true'
 
 function decodeJwtPayload(token) {
   const base64 = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')
@@ -98,6 +99,11 @@ export default function AuthGate({ children }) {
     if (window.google?.accounts?.id) {
       window.google.accounts.id.disableAutoSelect()
     }
+  }
+
+  // Skip auth entirely in development when VITE_SKIP_AUTH=true
+  if (SKIP_AUTH) {
+    return children
   }
 
   if (!CLIENT_ID) {
