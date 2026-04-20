@@ -45,15 +45,8 @@
     font-family: 'Space Grotesk', sans-serif; font-weight: 600;
     letter-spacing: 0.08em; font-size: 15px; color: var(--formant-white);
   }
-  .nav-logo-mark {
-    width: 28px; height: 28px; border: 1px solid var(--horizon-glow);
-    position: relative;
-  }
-  .nav-logo-mark::before, .nav-logo-mark::after {
-    content: ''; position: absolute; background: var(--horizon-glow);
-  }
-  .nav-logo-mark::before { left: 50%; top: 4px; bottom: 4px; width: 1px; transform: translateX(-0.5px); }
-  .nav-logo-mark::after { top: 50%; left: 4px; right: 4px; height: 1px; transform: translateY(-0.5px); }
+  .nav-logo-mark { width: 28px; height: 28px; display: block; }
+  .nav-logo-mark svg { width: 100%; height: 100%; display: block; }
   .nav-links { display: flex; gap: 28px; list-style: none; }
   .nav-links a {
     color: var(--system-neutral); font-size: 12px; font-weight: 500;
@@ -588,7 +581,13 @@
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    <div class="nav-logo-mark"></div>
+    <div class="nav-logo-mark">
+      <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-label="Formant">
+        <rect x="40" y="14" width="71" height="21" fill="#F2F3F4"/>
+        <polygon points="9,108 72,108 40,43" fill="#F2F3F4"/>
+        <circle cx="78" cy="61" r="16" fill="#F2F3F4"/>
+      </svg>
+    </div>
     <span>FORMANT</span>
   </div>
   <ul class="nav-links">
@@ -1204,7 +1203,13 @@
   <div class="footer-inner">
     <div>
       <div class="footer-brand" style="display:flex; align-items:center; gap: 14px;">
-        <div class="nav-logo-mark" style="width: 36px; height: 36px;"></div>
+        <div class="nav-logo-mark" style="width: 40px; height: 40px;">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-label="Formant">
+            <rect x="40" y="14" width="71" height="21" fill="#F2F3F4"/>
+            <polygon points="9,108 72,108 40,43" fill="#F2F3F4"/>
+            <circle cx="78" cy="61" r="16" fill="#F2F3F4"/>
+          </svg>
+        </div>
         FORMANT
       </div>
       <p class="footer-tag">To build an autonomous future with humans at the center. Physical-AI infrastructure for the world's plants.</p>
