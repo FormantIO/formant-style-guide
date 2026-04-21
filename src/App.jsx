@@ -48,6 +48,7 @@ function App() {
           <li><a href="#ui-patterns">UI</a></li>
           <li><a href="#architecture">System</a></li>
           <li><a href="#icons">Icons</a></li>
+          <li className="nav-cross-item"><a href="/strategy" className="nav-cross">Strategy Map&nbsp;↗</a></li>
         </ul>
       </nav>
 

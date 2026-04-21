@@ -31,6 +31,7 @@ export default function StrategyMap() {
           <li><a href="#f8">ICP</a></li>
           <li><a href="#f9">AI Agents</a></li>
           <li><a href="#north">Synthesis</a></li>
+          <li className="nav-cross-item"><a href="/" className="nav-cross">Style Guide&nbsp;↗</a></li>
         </ul>
         <div className="nav-meta">Strategy System / 2026</div>
       </nav>

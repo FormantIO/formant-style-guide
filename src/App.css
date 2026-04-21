@@ -50,6 +50,18 @@ nav {
   transition: color 0.2s;
 }
 .nav-links a:hover { color: var(--formant-white); }
+.nav-cross-item {
+  padding-left: 24px;
+  margin-left: 4px;
+  border-left: 1px solid rgba(163, 171, 169, 0.18);
+}
+.nav-links .nav-cross {
+  color: var(--terminal-amber);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+}
+.nav-links .nav-cross:hover { color: var(--formant-white); }
 
 /* HERO */
 .hero {

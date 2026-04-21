@@ -34,8 +34,9 @@
     background: rgba(10,15,17,0.85);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(163,171,169,0.1);
-    padding: 0 40px; height: 64px;
+    padding: 0 28px; height: 64px;
     display: flex; align-items: center; justify-content: space-between;
+    gap: 20px;
   }
   .nav-logo {
     display: flex; align-items: center; gap: 12px;
@@ -44,16 +45,29 @@
   }
   .nav-logo-mark { width: 28px; height: 28px; display: block; }
   .nav-logo-mark svg { width: 100%; height: 100%; display: block; }
-  .nav-links { display: flex; gap: 28px; list-style: none; }
+  .nav-links { display: flex; gap: 22px; list-style: none; }
+  .nav-links li { white-space: nowrap; }
   .nav-links a {
     color: var(--sm-system-neutral); font-size: 12px; font-weight: 500;
     letter-spacing: 0.08em; text-transform: uppercase;
-    transition: color .2s;
+    transition: color .2s; white-space: nowrap;
   }
   .nav-links a:hover { color: var(--sm-formant-white); }
+  .nav-cross-item {
+    padding-left: 20px;
+    border-left: 1px solid rgba(163, 171, 169, 0.18);
+  }
+  .nav-links .nav-cross {
+    color: var(--sm-terminal-amber);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+  }
+  .nav-links .nav-cross:hover { color: var(--sm-formant-white); }
   .nav-meta {
     font-family: 'JetBrains Mono', monospace; font-size: 10px;
     color: var(--sm-terminal-amber); letter-spacing: 0.22em; text-transform: uppercase;
+    display: none; /* cross-link replaces this as right-hand accent */
   }
 
   /* HERO */
